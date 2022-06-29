@@ -8,6 +8,3 @@ jobs:
   include:
     - dist: jammy
       python: pypy
-    - dist: jammy
-      python: pypy3
-    - dist: jammy
