@@ -1,0 +1,13 @@
+os: linux
+language: python
+script: python -V
+
+install: true
+
+jobs:
+  include:
+    - dist: jammy
+      python: pypy
+    - dist: jammy
+      python: pypy3
+    - dist: jammy
