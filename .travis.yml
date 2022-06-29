@@ -7,4 +7,6 @@ install: true
 jobs:
   include:
     - dist: jammy
-    - python: pypy
+      python: pypy
+    - dist: jammy
+      python: pypy3
